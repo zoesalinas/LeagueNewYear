@@ -20,10 +20,10 @@ public class FireworksDisplay {
       
       if( ! timedFirework.hasLaunched ) {
         // Haven't launched before
-        println("not launched");
+
         if( getDurationMs() >= timedFirework.launchTimeMs ){
           // Time to launch
-          println("over time");
+
           timedFirework.firework.draw();
           
           if( ! timedFirework.isActive() ){
