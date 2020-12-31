@@ -75,6 +75,7 @@ void draw() {
   // timer that counts down from 10 to 0.
   //
   // 3. Call the fireworksDisplay's launch() method and the Countdown object's draw() method.
-  // How do the
+  // How do the fireworks look? See if you can modify some of the code to make your
+  // own unique New Year's fireworks celebration!
 
 }
